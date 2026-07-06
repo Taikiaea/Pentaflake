@@ -40,7 +40,7 @@ if modo == "Visualización Estática":
 else:
     st.sidebar.header("🎬 Parámetros de Animación")
     iter_inicial = st.sidebar.slider("Iteración Inicial", min_value=0, max_value=5, value=0)
-    iter_final = st.sidebar.slider("Iteración Final", min_value=iter_inicial + 1, max_value=6, value=3)
+    iter_final = st.sidebar.slider("Iteración Final", min_value=iter_inicial + 1, max_value=7, value=3)
     velocidad = st.sidebar.slider("Velocidad de fotograma (segundos)", min_value=0.2, max_value=2.0, value=0.6, step=0.1)
     iteraciones = iter_final  # Para los cálculos base iniciales
 
