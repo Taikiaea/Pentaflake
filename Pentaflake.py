@@ -113,7 +113,7 @@ with col_der:
         st.latex(r"D = \frac{\ln(N)}{\ln(1/r)} = \frac{\ln(6)}{\ln(1+\phi)}")
         st.markdown("Donde $N=6$ es el factor de replicación geométrica y $r = 1/(1+\\phi)$ es la razón de escala.")
         st.markdown("**Operación algorítmica:**")
-        st.latex(f"D = \\frac{{\\ln(6)} Orientación}{{\\ln({1+PHI:.6f})}} = {dimension_hausdorff:.6f}")
+        st.latex(f"D = \\frac{{\\ln(6)}}{{\\ln({1+PHI:.6f})}} = {dimension_hausdorff:.6f}")
         st.success("Este valor irracional demuestra que el Pentaflake supera la complejidad lineal (1D) pero no llega a rellenar el plano cartesiano (2D).")
 
 st.markdown("---")
